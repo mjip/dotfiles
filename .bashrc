@@ -8,6 +8,7 @@ alias cd..="cd .."
 alias ff="firefox > /dev/null 2>&1 &"
 alias mu="cd ~/Music"
 alias tree="find . -print | sort | sed 's;[^/]*/;|---;g;s;---|; |;g'"
+alias open="xdg-open"
 
 # Function definitions
 function cd { 
