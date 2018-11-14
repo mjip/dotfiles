@@ -1,5 +1,6 @@
 colorscheme badwolf
 syntax enable
+set ff=unix
 
 set nocompatible
 set number
