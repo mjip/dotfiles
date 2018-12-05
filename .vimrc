@@ -13,3 +13,7 @@ set showmatch
 
 nnoremap j gj
 nnoremap k gk
+
+call plug#begin('~/.vim/plugged')
+Plug 'junegunn/seoul256.vim'
+call plug#end()
