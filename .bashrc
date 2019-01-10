@@ -21,3 +21,6 @@ function manvim() {
     vim -R -c 'set ft=man nomod nolist' -
 }
 
+function remove_spaces {
+	for f in *\ *; do mv "$f" "${f// /_}"; done
+}
