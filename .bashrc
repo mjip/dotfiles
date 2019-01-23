@@ -9,6 +9,8 @@ alias ff="firefox > /dev/null 2>&1 &"
 alias mu="cd ~/Music"
 alias tree="find . -print | sort | sed 's;[^/]*/;|---;g;s;---|; |;g'"
 alias open="xdg-open"
+alias untar='tar -zxvf '
+alias ipe='curl ipinfo.io/ip'
 
 # Function definitions
 function cd { 
