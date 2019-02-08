@@ -12,6 +12,8 @@ alias open="xdg-open"
 alias untar='tar -zxvf '
 alias ipe='curl ipinfo.io/ip'
 
+export HISTSIZE=1000
+
 # Function definitions
 function cd { 
 	builtin cd "$@" && ls; 
