@@ -1,4 +1,3 @@
-colorscheme badwolf
 syntax enable
 set ff=unix
 
