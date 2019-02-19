@@ -9,6 +9,8 @@ set showcmd
 set cursorline
 set wildmenu
 set showmatch
+set ruler
+set visualbell
 
 nnoremap j gj
 nnoremap k gk
